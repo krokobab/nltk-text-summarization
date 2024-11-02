@@ -2,10 +2,9 @@
 import telebot
 from telebot import types
 import summarization
-from settings import TG_TOKEN
 
 # Подключаем токен бота, объявляем переменные для хранения данных, передаваемых в функцию суммаризации
-bot = telebot.TeleBot(TG_TOKEN)
+bot = telebot.TeleBot("ВАШ API-КЛЮЧ")
 compression_parameter = .0
 text = ""
 
