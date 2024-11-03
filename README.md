@@ -1,4 +1,4 @@
-# nltk-text-summarization
+o# nltk-text-summarization
 В данном репозитории представлен метод экстрактивной суммаризации текста с интерфейсом в виде телеграм-бота.
 ## Быстрый старт
 1. Зарегистрируйте нового бота в телеграме при помощи бота @BotFather.
@@ -17,7 +17,7 @@
 5. В интерпретаторе Python исполните следующие комманды:
    ```python
    >>> import nltk
-   >>> nltk.download("punkt")
+   >>> nltk.download("punkt_tab")
    >>> nltk.download("stopwords")
    ```
    
